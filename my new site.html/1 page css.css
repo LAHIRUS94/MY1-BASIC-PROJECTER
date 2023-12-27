@@ -1,0 +1,19 @@
+body
+{
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.list
+{
+  background: rgb(0, 100, 0);
+  text-align: center;
+}
+.list ul
+{
+display: inline-flex;
+list-style: none;
+color: black;
+}

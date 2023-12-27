@@ -1,0 +1,43 @@
+submit
+{
+    background-color: rgb(23, 173, 103);
+    padding: 10px;
+    border-radius: 100px;
+    color: rgb(2, 66, 27);
+
+}
+body
+{
+background-image:url(pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+form
+{
+  background-color: rgb(139, 191, 226);
+  text-align: center;
+  //border: 2px solid black;
+  //outline: #34e5eb solid 10px;
+    margin: auto;  
+    padding: 20px;
+     text-align: center;
+     width:300px;
+     
+}
+h2{
+    border: 2px solid rgb(33, 10, 233);
+    outline: #34e5eb solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+  }
+  p
+  {
+    argin: auto;  
+    padding: 20px;
+    text-align: center;
+
+  }
+  

@@ -1,0 +1,65 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 100px;
+    border-image-outset: 10px;
+}
+
+.bar{
+width: 100vw;
+height: 50px;
+background-color: rgb(35, 4, 212);
+position: fixed;
+top: 0;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    border-radius: 100px;
+    border-image-outset: 10px;
+    }
+    .box3{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        position: fixed;
+        bottom: 50px;
+        top: 50px;
+        right: 50px;
+        border-radius: 100px;
+        border-image-outset: 10px;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: fixed;
+            top: 50px;
+            left: 50px; 
+            border-radius: 100px;
+            border-image-outset: 10px;
+            }
+            .box4{
+                width: 30vw;
+                height: 20vh;
+                background-color: aqua;
+                position: fixed;
+                top: 50%;
+                left: 50%; 
+                border-radius: 100px;
+                border-image-outset: 10px;
+                }
+      .h1{
+        text-align: 50%;
+        
+
+
+      }
