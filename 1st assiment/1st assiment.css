@@ -2,21 +2,43 @@
     border: 1px;
     color: rgb(0, 0, 0);
     padding-left: 160px;
-    display: flex;
-    
-   
+    position: absolute;
+    border-bottom: 200px;
+    flex-direction: column;
 }
 .h5{
     color: rgb(0, 0, 0);
     padding-left: 160px;
 }
 .div1 {
-        border: 1px solid #ddd;
-        border-radius: 10px;
+        border: 1px solid #a19f26;
+        border-radius: 4px;
         padding: 5px;
         width: 120px;
-        position: relative;
-        
-        height: 120px;
+        position: relative;       
     
       }
+.divh1{
+background-color: rgb(114, 124, 133);
+
+}
+.div2{
+    background-color: #cacac9;
+    display: flex;
+}
+.p5{
+margin-left: 5px;
+}
+.p4{
+    margin-left: 5px;
+    }
+.p3{
+        margin-left: 5px;
+        }   
+.p2{
+            margin-left: 65%;
+            
+            }
+.p1{
+    background-color: aqua;
+      }           
