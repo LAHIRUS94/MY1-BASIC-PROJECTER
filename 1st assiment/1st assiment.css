@@ -1,44 +1,50 @@
-.h1{
-    border: 1px;
-    color: rgb(0, 0, 0);
-    padding-left: 160px;
-    position: absolute;
-    border-bottom: 200px;
-    flex-direction: column;
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 107, 107);
 }
-.h5{
-    color: rgb(0, 0, 0);
-    padding-left: 160px;
-}
-.div1 {
-        border: 1px solid #a19f26;
-        border-radius: 4px;
-        padding: 5px;
-        width: 120px;
-        position: relative;       
-    
-      }
-.divh1{
-background-color: rgb(114, 124, 133);
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
 
 }
-.div2{
-    background-color: #cacac9;
-    display: flex;
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+
 }
-.p5{
-margin-left: 5px;
+.slide-image{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+
 }
-.p4{
-    margin-left: 5px;
-    }
-.p3{
-        margin-left: 5px;
-        }   
-.p2{
-            margin-left: 65%;
-            
-            }
-.p1{
-    background-color: aqua;
-      }           
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    
+}
