@@ -1,17 +1,15 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(92, 107, 107);
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    flex-direction: column;
+    background-color: rgb(223, 231, 231);
 }
 .slider-frame{
     overflow: hidden;
     height: 800px;
-    width: 1200px;
-    margin-left: 360px;
+    width: 1300px;
+    margin-left: 150px;
     margin-top: 20px;
 
 }
@@ -31,7 +29,7 @@ body{
 }
 .slide-image{
     width: 3600px;
-    height: 800px;
+    height: 600px;
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation: slide_animation;
@@ -46,5 +44,77 @@ body{
     width: 1200px;
     position: relative;
     float: left;
-    
 }
+.navbar{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.active{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  margin-right: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.div {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  .h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008CBA;
+  }
+  .fixed {
+   
+    bottom: 20px;
+    right: 16px;
+    position: fixed;
+    width: 200px;
+    height: 105px;
+    border: 3px solid #132fcf;
+    background-color: #7bb8d4;
+    text-align: center;
+    
+  }
+  
