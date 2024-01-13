@@ -7,7 +7,7 @@ body{
 }
 .slider-frame{
     overflow: hidden;
-    height: 800px;
+    height: 350px;
     width: 1300px;
     margin-left: 150px;
     margin-top: 20px;
@@ -103,7 +103,7 @@ li a:hover {
   
   a {
     text-decoration: none;
-    color: #008CBA;
+    color: #090a0a;
   }
   .fixed {
    
@@ -112,9 +112,44 @@ li a:hover {
     position: fixed;
     width: 200px;
     height: 105px;
-    border: 3px solid #132fcf;
+    border: 3px solid #02687a;
     background-color: #7bb8d4;
     text-align: center;
+  }
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
     
   }
   
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;}
+.danu{
+ display: flex;
+  float: left;
+  margin: 10px;
+  text-align: center;
+
+}
+.tex1{
+   width:600px;
+   height: 30px;
+
+ }
+.tex4{
+
+  width:600px;
+  height: 115px;
+}
